@@ -1,0 +1,16 @@
+{
+  "extends": "tsconfig/vite.json",
+  "include": ["src", "node_modules/ahooks"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declarationMap": false,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  }
+}
