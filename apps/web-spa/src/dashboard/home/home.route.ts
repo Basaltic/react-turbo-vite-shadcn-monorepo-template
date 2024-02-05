@@ -1,5 +1,5 @@
-import { rootRoute } from '@/app/router/root-route';
-import { Route } from '@tanstack/react-router';
-import { HomePage } from './home.page';
+import { createRoute } from '@tanstack/react-router';
+import { DashboardHomePage } from './home.page';
+import { dashboardRoute } from '../dashboard.route';
 
-export const homeRoute = new Route({ getParentRoute: () => rootRoute, path: '/', component: HomePage });
+export const homeRoute = createRoute({ getParentRoute: () => dashboardRoute, path: '/', component: DashboardHomePage });

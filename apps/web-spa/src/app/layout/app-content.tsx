@@ -6,12 +6,10 @@ import { PageSuspenseFallback } from './app-suspense-fallback';
 export function AppContent(props: { className?: string }) {
     const { className } = props;
     return (
-        <div className={cn('flex-1 center relative overflow-auto', className)}>
-            <div className="w-full h-full">
-                <Suspense fallback={<PageSuspenseFallback />}>
-                    <Outlet />
-                </Suspense>
-            </div>
+        <div className={cn('w-full h-full relative', className)}>
+            <Suspense fallback={<PageSuspenseFallback />}>
+                <Outlet />
+            </Suspense>
         </div>
     );
 }

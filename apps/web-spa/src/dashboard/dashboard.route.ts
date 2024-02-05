@@ -1,6 +1,8 @@
 import { rootRoute } from '@/app/router/root-route';
-import { Route } from '@tanstack/react-router';
+import { createRoute } from '@tanstack/react-router';
+import { homeRoute } from './home/home.route';
+import { DashboardLayout } from './dashboard-layout';
 
-export const dashboardRoute = new Route({ getParentRoute: () => rootRoute, path: '/app' });
+export const dashboardRoute = createRoute({ getParentRoute: () => rootRoute, path: '/app', component: DashboardLayout });
 
-dashboardRoute.addChildren([]);
+dashboardRoute.addChildren([homeRoute]);

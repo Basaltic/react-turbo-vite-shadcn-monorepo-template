@@ -28,7 +28,6 @@ pnpm i
 ### 3. that's it !
 
 
-
 ## Commands
 
 ```ts
@@ -46,3 +45,10 @@ pnpm run build
 | - 
 
 ```
+
+## Integrated
+
+- `react-hook-form`: form management
+- `i18next & react-i18next`: text internationalization
+- `recharts`: chart library
+

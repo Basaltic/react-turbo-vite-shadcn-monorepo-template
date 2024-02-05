@@ -1,7 +1,6 @@
-import { Module } from '@viness/core';
+import { createModule } from '@viness/core';
 
-@Module({
+export const dashboardModule = createModule({
     imports: [],
     providers: [],
-})
-export class DashboardModule {}
+});

@@ -1,7 +1,3 @@
-import { Module } from '@viness/core';
+import { createModule } from '@viness/core';
 
-@Module({
-    imports: [],
-    providers: [],
-})
-export class CommonModule {}
+export const commonModule = createModule({ imports: [], providers: [] });

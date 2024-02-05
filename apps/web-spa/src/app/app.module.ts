@@ -1,9 +1,7 @@
-import { Module } from '@viness/core';
-import { DatabaseModule } from '@/common/database/db.module';
-import { DashboardModule } from '@/dashboard/dashboard.module';
+import { createModule } from '@viness/core';
+import { dashboardModule } from '@/dashboard/dashboard.module';
 
-@Module({
-    imports: [DatabaseModule, DashboardModule],
+export const appModule = createModule({
+    imports: [dashboardModule],
     providers: [],
-})
-export class AppModule {}
+});
