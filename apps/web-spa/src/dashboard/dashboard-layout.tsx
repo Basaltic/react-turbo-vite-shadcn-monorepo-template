@@ -3,6 +3,7 @@ import { MainNav } from './home/components/main-nav';
 import { TeamSwitcher } from './home/components/team-switcher';
 import { UserNav } from './home/components/user-nav';
 import { Outlet } from '@tanstack/react-router';
+import { Suspense } from 'react';
 
 export function DashboardLayout() {
     return (
@@ -18,7 +19,9 @@ export function DashboardLayout() {
                 </div>
             </div>
             <div className="flex-1 h-full overflow-auto">
-                <Outlet />
+                <Suspense>
+                    <Outlet />
+                </Suspense>
             </div>
         </div>
     );
