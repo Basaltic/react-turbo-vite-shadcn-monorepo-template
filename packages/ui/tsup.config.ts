@@ -7,7 +7,7 @@ export default defineConfig((options: Options) => ({
     minify: true,
     clean: true,
     external: ['react'],
-    entry: ['index.ts', 'lib/*.ts', 'components/*.tsx'],
+    entry: ['index.ts', 'lib/*.ts', 'components/*.tsx', 'components/*.ts'],
     format: ['cjs', 'esm'],
     ...options,
 }));
