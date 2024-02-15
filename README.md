@@ -2,23 +2,15 @@
 
 A react monorepo template based on turbo & vite. A start point of your project.
 
-## Features
-
-
-
 ## Get Start
 
-### 1. clone the template
-
-```ts
-
-```
+### 1. clone the template or click the 「use this template」 button
 
 ### 2. setup template
 
 ```bash
 # 
-cd your-name
+cd your-project-folder-name
 
 # install the dependency
 pnpm i
@@ -26,6 +18,8 @@ pnpm i
 ```
 
 ### 3. that's it !
+
+Use the template as your project's start point. Change it whatever you like.
 
 
 ## Commands
@@ -40,8 +34,8 @@ pnpm run build
 
 ```ts
 
-| - apps
-| - packages
+| - apps        // applications
+| - packages    // shared packages used by applications
 | - 
 
 ```
