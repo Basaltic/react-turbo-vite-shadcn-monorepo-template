@@ -1,3 +1,7 @@
+<img src="https://raw.githubusercontent.com/Basaltic/react-turbo-vite-shadcn-monorepo-template/main/title.png" alt="banner" align="center" />
+
+<br />
+
 # React Turbo Vite Shadcn Monorepo Template
 
 A react monorepo template based on turbo & vite. A start point of your project.
@@ -17,7 +21,7 @@ pnpm i
 
 ```
 
-### 3. that's it !
+### 3. that's it
 
 Use the template as your project's start point. Change it whatever you like.
 
@@ -34,7 +38,8 @@ pnpm run build
 
 ```ts
 
-| - apps        // applications
+| - apps        // application templates
+  | - web-spa   // a web single page application template
 | - packages    // shared packages used by applications
 | - 
 
