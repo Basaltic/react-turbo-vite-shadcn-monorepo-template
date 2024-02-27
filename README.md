@@ -42,6 +42,7 @@ pnpm run version
 ```ts
 
 | - apps                  // application templates
+  | - desktop-tauri         // an tauri based desktop template
   | - desktop-electron      // an electron based desktop template
   | - web-spa               // a web single page application template
 | - packages              // shared packages used by applications
