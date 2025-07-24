@@ -1,15 +1,15 @@
-import { useNavigate } from '@tanstack/react-router';
+import { useNavigate } from "@tanstack/react-router";
 
-import { Button } from 'ui/components/button';
+import { Button } from "@workspace/ui/components/button";
 
 export function LandingPage() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleGetStart = () => navigate({ to: '/app' });
+  const handleGetStart = () => navigate({ to: "/app" });
 
-    return (
-        <div>
-            <Button onClick={handleGetStart}>Get Start</Button>
-        </div>
-    );
+  return (
+    <div>
+      <Button onClick={handleGetStart}>Get Start</Button>
+    </div>
+  );
 }

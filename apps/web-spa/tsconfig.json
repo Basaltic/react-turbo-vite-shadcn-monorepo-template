@@ -1,10 +1,10 @@
 {
-  "extends": "tsconfig/vite.json",
+  "extends": "@workspace/ts-config/vite.json",
   "include": ["src", "node_modules/ahooks"],
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      
+      "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,

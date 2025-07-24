@@ -1,3 +1,66 @@
 packages:
   - "apps/*"
   - "packages/*"
+
+# Define a catalog of version ranges.
+catalog:
+  react: ^19.1.0
+  react-dom: ^19.1.0
+  react-tracked: 2.0.1
+  lucide-react: 0.503.0
+
+  zustand: 5.0.3
+  immer: 10.1.1
+  clsx: 2.1.1
+  dayjs: 1.11.13
+  nanoid: 5.1.5
+  radash: 12.1.0
+  lodash-es: 4.17.21
+  overlayscrollbars: 2.11.1
+
+  i18next: 25.0.1
+  i18next-browser-languagedetector: 8.0.5
+  react-i18next: 15.4.1
+
+  tailwind-merge: 3.3.0
+  tw-animate-css: 1.3.2
+
+  "@tanstack/react-router": 1.120.11
+  "@tanstack/router-devtools": 1.120.11
+
+  "@tauri-apps/api": "2.5.0"
+  "@tauri-apps/plugin-fs": "2.2.1"
+  "@tauri-apps/plugin-store": "2.2.0"
+  "@tauri-apps/plugin-shell": "2.2.1"
+  "@tauri-apps/plugin-dialog": "2.2.1"
+  "@tauri-apps/plugin-sql": "2.2.0"
+
+  "@tauri-apps/cli": 2.5.0
+
+  "@abraham/reflection": 0.13.0
+
+  vite: 6.3.2
+  vitest: 3.1.1
+  "@vitejs/plugin-react": 4.4.1
+
+  tailwindcss: 4.1.7
+  "@tailwindcss/vite": 4.1.7
+  "@tailwindcss/postcss": 4.1.7
+
+  turbo: 2.5.2
+  "@turbo/gen": 2.5.2
+
+  shadcn: 2.5.0
+
+  typescript: 5.7.2
+
+  "@biomejs/biome": 1.9.4
+
+  "@changesets/cli": 2.29.2
+
+  "@testing-library/jest-dom": 6.6.3
+  "@testing-library/react": 16.2.0
+
+  "@types/react": ^19
+  "@types/react-dom": ^19
+  "@types/node": ^20
